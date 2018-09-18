@@ -15,7 +15,7 @@ namespace SeleniumNUnitParam
         [Test]
         public void GoogleTest()
         {
-            Driver.Navigate().GoToUrl("http://www.google.com");
+            Driver.Navigate().GoToUrl("http://www.bing.com");
             Driver.FindElement(By.Name("q")).SendKeys("Selenium");
             System.Threading.Thread.Sleep(5000);
             Driver.FindElement(By.Name("btnG")).Click();
